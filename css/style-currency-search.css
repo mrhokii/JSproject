@@ -1,0 +1,119 @@
+
+
+.container > .sign-up-hero-section{
+    width: 100%;
+    height: 200px;
+    background-color: var(--big-bg);
+}
+.container > .sign-up-hero-section > .bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.container > .sign-up-hero-section > .top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.container > .sign-up-hero-section > .bottom > i,
+.container > .sign-up-hero-section > .bottom > a,
+.container > .sign-up-hero-section > .top > p{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+
+
+
+
+.container > .currency-search{
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua; */
+}
+
+.container > .currency-search > .top{
+    display: flex;
+    justify-content: center;
+
+}
+.container > .currency-search > .top > .inp{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+
+.container > .currency-search > .top > .inp > input{
+    width: 50%;
+    height: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+background-color: #F4F7FA;
+}
+.container > .currency-search > .top > .inp > input:focus{
+    outline: 1px solid rgb(21, 44, 255);
+    transition: all 0.4s;
+}
+.container > .currency-search > .top > .inp > button{
+    width: 15%;
+    height: 40px;
+    background-color: #F4F7FA;
+    border: none;
+    border-left: 2px solid black;
+    cursor: pointer;
+}
+
+
+
+
+.container > .currency-search > .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ #show{
+    width: 50%;
+    padding: 40px 0;
+    border-top: 2px solid black;
+    text-align: center;
+}
+#show > div> img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+    
+.container > .currency-search > .top > .inp{
+    width: 80%;
+}
+.container > .currency-search > .top > .inp > input{
+    width: 90%;
+}
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+    
+.container > .currency-search > .top > .inp{
+    width: 80%;
+}
+.container > .currency-search > .top > .inp > input{
+    width: 90%;
+}
+}

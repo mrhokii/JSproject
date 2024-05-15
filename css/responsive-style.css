@@ -1,0 +1,1448 @@
+
+/******************************************************************************************** responsive ***/
+
+
+@media screen and (min-width: 0px) and (max-width: 400px){
+
+    /************************************ header ******************************/
+    .container > header > .header-box > .menu{
+        display: none;
+    }
+    .container > header{
+        width: 100%;
+    }
+    .container > header > .header-box > .mob > .fa-bars{
+        display: block;
+    }
+    .container > header > .header-box > .start-btn{
+        display: none;
+    }
+
+    /************************************** main ********************************/
+    /*********************************** hero section *****************************/
+    .container > main > .hero-section> .box{
+        display: flex;
+        justify-content: center;
+    }
+    .container > main > .hero-section> .box > .text{
+        width: 100%;
+        text-align: center;
+    }
+    .container > main > .hero-section > .box > .img{
+        display: none;
+    }
+    /***************************************************** Why Choose Us ***/
+
+    .container > main > .choose > .text{
+        width: 100%;
+        text-align: center;
+    }
+    .container > main > .choose1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 30px;
+        gap: 10px;
+    }
+    .container > main > .choose1 > .left,
+    .container > main > .choose1 > .center,
+    .container > main > .choose1 > .right{
+        width: 90%;
+    }
+    /****************************************************** Ready To Get Started? ***/
+
+    .container > main > .started > .text{
+        width: 100%;
+        text-align: center;
+    }
+    .container > main > .started > .text1{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .container > main > .started > .text1 > .left,
+    .container > main > .started > .text1 > .center,
+    .container > main > .started > .text1 > .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+    }
+    .container > main > .started > .text1 > .left > .da > .da1,
+    .container > main > .started > .text1 > .center > .da > .da1,
+    .container > main > .started > .text1 > .right > .da > .da1{
+        width: 70px;
+        height: 70px;
+    }
+
+
+
+
+/******************************************************************************************** Expert Team ***/
+    .container > main > .expert-team > .text{
+        width: 100%;
+        text-align: center;
+    }
+    .container > main > .expert-team > .text1{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .container > main > .expert-team > .team{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 20px;
+    }
+    .container > main > .expert-team > .team > .team1,
+    .container > main > .expert-team > .team > .team2,
+    .container > main > .expert-team > .team > .team3,
+    .container > main > .expert-team > .team > .team4{
+        width: 100%;
+    }
+
+
+    
+/**************************************************************************** Create your own experience ***/
+
+#l2{
+    position: absolute;
+    top: 60%;
+    right: -8%;
+}
+#l3{
+    position: absolute;
+    top: 20px;
+}
+#height{
+    width: 100%;
+    height: 210px;
+}
+
+.container > main > .experience > .blur{
+    margin-bottom: -300px;
+}
+.container > main > .experience > .blur > .blur1 > div{
+    width: 100%;
+}
+.container > main > .experience > .blur > .blur1 > div >  .text{
+    width: 50%;
+    text-align: center;
+}
+
+/*************************************************************************************** Road Map ***/
+
+
+.container > main > .road-map{
+    display: none;
+}
+.container > main > .road-map-mob{
+    background-image: url(../pic/bg.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.container > main > .road-map-mob  > .text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.container > main > .road-map-mob >   .text > p:last-child{
+    color: rgb(168, 167, 167);
+}
+.container > main > .road-map-mob >   .text > h1{
+    color: var(--big-bg);
+    font-size: 36px;
+}
+
+.container > main > .road-map-mob >   .slide-container-mob{
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.container > main > .road-map-mob > .slide-container-mob::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: var(--light-blue-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+}
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    transform: translate(500px,00px);
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2{
+    position: relative;
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3 ,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3{
+    position: relative;
+    width: 33%;
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    position: relative;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1 > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1 > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1 > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1 > label{
+    font-size: 15px;
+    color: var(--big-bg);
+    font-weight: 700;
+}
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1:hover,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1:hover,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1:hover,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1:hover{
+    background-color: #3E80FF;
+    color: white;
+    transition: all 0.50s;
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1:hover > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1:hover > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1:hover > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1:hover > span{
+    background-color: #3E80FF;
+    transition: all 0.50s;
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1:hover > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1:hover > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1:hover > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1:hover > label{
+    color: white;   
+     transition: all 0.50s;
+
+
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1 > span{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 45%;
+    top: -10px;
+    transform: rotate(45deg);
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1 > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1 > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1 > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1 > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1 > span{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 45%;
+    bottom: -10px;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3::before,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3::before,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3::before,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 46%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #3E80FF !important;
+    margin-left: -9px;
+    z-index: 888;
+}
+
+
+
+.container > main > .road-map-mob > .btn-slide {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container > main > .road-map-mob > .btn-slide > .slide__1mob{
+    width: 40px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.container > main > .road-map-mob > .btn-slide > .slide__2mob,
+.container > main > .road-map-mob > .btn-slide > .slide__3mob,
+.container > main > .road-map-mob > .btn-slide > .slide__4mob{
+    width: 20px;
+    height: 10px;
+    background-color: rgb(99, 173, 198);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+/********************************************************************************* Customer Reviews ***/
+
+.container > main > .customer-reviews{
+display: none;
+}
+.container > main > .customer-reviews-mob   {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #F4F7FA;
+    gap: 36px;
+}
+
+.container > main > .customer-reviews-mob  > .text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.container > main > .customer-reviews-mob >   .text > p:last-child{
+    color: rgb(168, 167, 167);
+}
+.container > main > .customer-reviews-mob >   .text > h1{
+    color: var(--big-bg);
+    font-size: 36px;
+}
+.container > main > .customer-reviews-mob > .box-container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.container > main > .customer-reviews-mob > .box-container > .slide-box2-mob,
+.container > main > .customer-reviews-mob > .box-container > .slide-box3-mob, 
+.container > main > .customer-reviews-mob > .box-container > .slide-box4-mob {
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    transform: translate(500px,00px);
+}
+
+.container > main > .customer-reviews-mob > .box-container > .slide-box1-mob {
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > main > .customer-reviews-mob > .box-container > .slide-box1-mob > .box-1 > .da1,
+.container > main > .customer-reviews-mob > .box-container > .slide-box2-mob > .box-1 > .da1,
+.container > main > .customer-reviews-mob > .box-container > .slide-box3-mob > .box-1 > .da1,
+.container > main > .customer-reviews-mob > .box-container > .slide-box4-mob > .box-1 > .da1{
+    width: 50px;
+    height: 50px;
+    background-color: var(--light-blue-color);
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    border-radius: 100%;
+}
+.container > main > .customer-reviews-mob > .box-container > .slide-box1-mob > .box-1 > .center,
+.container > main > .customer-reviews-mob > .box-container > .slide-box2-mob > .box-1 > .center,
+.container > main > .customer-reviews-mob > .box-container > .slide-box3-mob > .box-1 > .center,
+.container > main > .customer-reviews-mob > .box-container > .slide-box4-mob > .box-1 > .center{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 20px;
+}
+.container > main > .customer-reviews-mob > .box-container > .slide-box1-mob > .box-1:hover,
+.container > main > .customer-reviews-mob > .box-container > .slide-box2-mob > .box-1:hover,
+.container > main > .customer-reviews-mob > .box-container > .slide-box3-mob > .box-1:hover,
+.container > main > .customer-reviews-mob > .box-container > .slide-box4-mob > .box-1:hover{
+    box-shadow: 0px 0px 8px rgb(153, 152, 152);
+    transition: all 0.50s;
+}
+.container > main > .customer-reviews-mob > .box-container > .slide-box1-mob > .box-1 > .center > .img,
+.container > main > .customer-reviews-mob > .box-container > .slide-box2-mob > .box-1 > .center > .img,
+.container > main > .customer-reviews-mob > .box-container > .slide-box3-mob > .box-1 > .center > .img,
+.container > main > .customer-reviews-mob > .box-container > .slide-box4-mob > .box-1 > .center > .img{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+.container > main > .customer-reviews-mob >  .btn-slide-mob {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container > main > .customer-reviews-mob >  .btn-slide-mob > .slide__1b-mob{
+    width: 40px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.container > main > .customer-reviews-mob >  .btn-slide-mob > .slide__2b-mob,
+.container > main > .customer-reviews-mob >  .btn-slide-mob > .slide__3b-mob,
+.container > main > .customer-reviews-mob >  .btn-slide-mob > .slide__4b-mob{
+    width: 20px;
+    height: 10px;
+    background-color: rgb(99, 173, 198);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+/**************************************************************************************** blogs ***/
+
+
+
+
+.container > main > .blogs  > .text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.container > main > .blogs >   .text > p:last-child{
+    color: rgb(168, 167, 167);
+}
+.container > main > .blogs >   .text > h1{
+    color: var(--big-bg);
+    font-size: 36px;
+}
+
+
+.container > main > .blogs > .box{
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+}
+.container > main > .blogs > .box > .box1,
+.container > main > .blogs > .box > .box2,
+.container > main > .blogs > .box > .box3{
+width: 100%;
+}
+
+
+
+
+
+/********************************************************************************************* faq ***/
+
+
+
+
+
+.container > main > .faq  > .text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.container > main > .faq >   .text > p:last-child{
+    color: rgb(168, 167, 167);
+}
+.container > main > .faq >   .text > h1{
+    color: var(--big-bg);
+    font-size: 36px;
+}
+
+.container > main > .faq > .question-box{
+    flex-direction: column;
+    width: 80%;
+    gap: 15px;
+}
+
+.container > main > .faq > .question-box > .question-box-left,
+.container > main > .faq > .question-box > .question-box-right {
+    width: 100%;
+}
+
+
+
+
+
+
+/************************************************************************************** footer ***/
+
+
+
+.container > footer > .container > .top{
+    flex-direction: column;
+    align-items: center;
+}
+.container > footer > .container > .top > .row-1,
+.container > footer > .container > .top > .row-2,
+.container > footer > .container > .top > .row-3,
+.container > footer > .container > .top > .row-4{
+    width: 100%;
+    text-align: center;
+}
+
+.container > footer > .container > .top > .row-1 .media{
+    display: none;
+}
+
+
+.container > footer > .container > .top  > .row-1 > .media-mob{
+    width: 100%;
+    background-color: #24126A;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container > footer > .container > .top  > .row-1 > .media-mob > div{
+    width: 50px;
+    height: 50px;
+    background-color: #24126A;
+    border: 1px solid rgb(156, 156, 156);
+    color: white;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 22px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.container > footer > .container > .top  > .row-4 > .h3,
+.container > footer > .container > .top  > .row-4 > .ptag{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.container > footer > .container > .bottom > .container{
+    flex-direction: column;
+    width: 100%;
+}
+.container > footer > .container > .bottom > .container > .txt1,
+.container > footer > .container > .bottom > .container > .txt2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 800px){
+/************************************ header ******************************/
+.container > header > .header-box > .menu{
+    display: none;
+}
+.container > header{
+    width: 100%;
+}
+.container > header > .header-box > .mob > .fa-bars{
+    display: block;
+}
+/************************************** main ********************************/
+/*********************************** hero section *****************************/
+.container > main > .hero-section> .box{
+    display: flex;
+    justify-content: center;
+}
+.container > main > .hero-section> .box > .text{
+    width: 100%;
+    text-align: center;
+}
+.container > main > .hero-section > .box > .img{
+    display: none;
+}
+
+
+/***************************************************** Why Choose Us ***/
+
+.container > main > .choose > .text{
+    width: 100%;
+    text-align: center;
+}
+.container > main > .choose1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    gap: 10px;
+}
+.container > main > .choose1 > .left,
+.container > main > .choose1 > .center,
+.container > main > .choose1 > .right{
+    width: 40%;
+}
+
+
+
+    /****************************************************** Ready To Get Started? ***/
+
+    .container > main > .started > .text{
+        width: 100%;
+        text-align: center;
+    }
+    .container > main > .started > .text1{
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+    }
+    .container > main > .started > .text1 > .left,
+    .container > main > .started > .text1 > .center,
+    .container > main > .started > .text1 > .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 50%;
+    }
+    .container > main > .started > .text1 > .left > .da > .da1,
+    .container > main > .started > .text1 > .center > .da > .da1,
+    .container > main > .started > .text1 > .right > .da > .da1{
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+/******************************************************************************************** Expert Team ***/
+.container > main > .expert-team > .text{
+    width: 100%;
+    text-align: center;
+}
+.container > main > .expert-team > .text1{
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.container > main > .expert-team > .team{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+.container > main > .expert-team > .team > .team1,
+.container > main > .expert-team > .team > .team2,
+.container > main > .expert-team > .team > .team3,
+.container > main > .expert-team > .team > .team4{
+    width: 45%;
+}
+
+
+
+
+
+    
+/**************************************************************************** Create your own experience ***/
+
+#l2{
+    position: absolute;
+    top: 60%;
+    right: -8%;
+}
+#l3{
+    position: absolute;
+    top: 20px;
+}
+#height{
+    width: 100%;
+    height: 210px;
+}
+
+.container > main > .experience > .blur{
+    margin-bottom: -300px;
+}
+.container > main > .experience > .blur > .blur1 > div{
+    width: 100%;
+}
+.container > main > .experience > .blur > .blur1 > div >  .text{
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/**************************************************************************************** blogs ***/
+
+
+
+
+.container > main > .blogs  > .text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.container > main > .blogs >   .text > p:last-child{
+    color: rgb(168, 167, 167);
+}
+.container > main > .blogs >   .text > h1{
+    color: var(--big-bg);
+    font-size: 36px;
+}
+
+
+.container > main > .blogs > .box{
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+.container > main > .blogs > .box > .box1,
+.container > main > .blogs > .box > .box2,
+.container > main > .blogs > .box > .box3{
+width: 45%;
+}
+
+
+
+
+/********************************************************************************************* faq ***/
+
+
+
+
+
+.container > main > .faq  > .text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.container > main > .faq >   .text > p:last-child{
+    color: rgb(168, 167, 167);
+}
+.container > main > .faq >   .text > h1{
+    color: var(--big-bg);
+    font-size: 36px;
+}
+
+.container > main > .faq > .question-box{
+    flex-direction: column;
+    width: 80%;
+    gap: 15px;
+}
+
+.container > main > .faq > .question-box > .question-box-left,
+.container > main > .faq > .question-box > .question-box-right {
+    width: 100%;
+}
+
+
+
+/************************************************************************************** footer ***/
+
+
+
+.container > footer > .container > .top{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container > footer > .container > .top > .row-1,
+.container > footer > .container > .top > .row-2,
+.container > footer > .container > .top > .row-3,
+.container > footer > .container > .top > .row-4{
+    width:45%;
+    text-align: left;
+}
+
+.container > footer > .container > .top > .row-1 .media{
+    display: none;
+}
+
+
+.container > footer > .container > .top  > .row-1 > .media-mob{
+    width: 100%;
+    background-color: #24126A;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container > footer > .container > .top  > .row-1 > .media-mob > div{
+    width: 50px;
+    height: 50px;
+    background-color: #24126A;
+    border: 1px solid rgb(156, 156, 156);
+    color: white;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 22px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.container > footer > .container > .top  > .row-4 > .h3,
+.container > footer > .container > .top  > .row-4 > .ptag{
+width: 100%;
+display: flex;
+}
+.container > footer > .container > .bottom > .container{
+    width: 100%;
+}
+.container > footer > .container > .bottom > .container > .txt1,
+.container > footer > .container > .bottom > .container > .txt2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+/*************************************************************************************** Road Map ***/
+
+
+.container > main > .road-map{
+    display: none;
+}
+.container > main > .road-map-mob{
+    background-image: url(../pic/bg.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.container > main > .road-map-mob  > .text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.container > main > .road-map-mob >   .text > p:last-child{
+    color: rgb(168, 167, 167);
+}
+.container > main > .road-map-mob >   .text > h1{
+    color: var(--big-bg);
+    font-size: 36px;
+}
+
+.container > main > .road-map-mob >   .slide-container-mob{
+    width: 80%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+.container > main > .road-map-mob > .slide-container-mob::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: var(--light-blue-color);
+}
+
+
+
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+}
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    transform: translate(700px,00px);
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2{
+    position: relative;
+    width: 33%;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3 ,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3{
+    position: relative;
+    width: 33%;
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    position: relative;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1 > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1 > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1 > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1 > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1 > label{
+    font-size: 15px;
+    color: var(--big-bg);
+    font-weight: 700;
+}
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1:hover,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1:hover,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1:hover,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1:hover,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1:hover{
+    background-color: #3E80FF;
+    color: white;
+    transition: all 0.50s;
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1:hover > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1:hover > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1:hover > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1:hover > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1:hover > span{
+    background-color: #3E80FF;
+    transition: all 0.50s;
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1:hover > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1:hover > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1:hover > label,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1:hover > label,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1:hover > label{
+    color: white;   
+     transition: all 0.50s;
+
+
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2  > .txt1 > span{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 45%;
+    top: -10px;
+    transform: rotate(45deg);
+}
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1  > .txt1 > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1  > .txt1 > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1  > .txt1 > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3  > .txt1 > span,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1  > .txt1 > span,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3  > .txt1 > span{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 45%;
+    bottom: -10px;
+    transform: rotate(45deg);
+}
+
+
+
+
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide1::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide2::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-1-mob > .slide3::before,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide1::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide2::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-2-mob > .slide3::before,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide1::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide2::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-3-mob > .slide3::before,
+
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide1::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide2::before,
+.container > main > .road-map-mob > .slide-container-mob > .slide-4-mob > .slide3::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 46%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #3E80FF !important;
+    margin-left: -9px;
+    z-index: 888;
+}
+
+
+
+.container > main > .road-map-mob > .btn-slide {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container > main > .road-map-mob > .btn-slide > .slide__1mob{
+    width: 40px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.container > main > .road-map-mob > .btn-slide > .slide__2mob,
+.container > main > .road-map-mob > .btn-slide > .slide__3mob,
+.container > main > .road-map-mob > .btn-slide > .slide__4mob{
+    width: 20px;
+    height: 10px;
+    background-color: rgb(99, 173, 198);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+/********************************************************************************* Customer Reviews ***/
+
+.container > main > .customer-reviews{
+    display: none;
+    }
+    .container > main > .customer-reviews-mob   {
+        width: 100%;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0;
+        background-color: #F4F7FA;
+        gap: 36px;
+    }
+    
+    .container > main > .customer-reviews-mob  > .text{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .container > main > .customer-reviews-mob >   .text > p:last-child{
+        color: rgb(168, 167, 167);
+    }
+    .container > main > .customer-reviews-mob >   .text > h1{
+        color: var(--big-bg);
+        font-size: 36px;
+    }
+    .container > main > .customer-reviews-mob > .box-container{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    
+    
+    .container > main > .customer-reviews-mob > .box-container > .slide-box2-mob,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box3-mob, 
+    .container > main > .customer-reviews-mob > .box-container > .slide-box4-mob {
+        width: 100%;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute; 
+        transform: translate(500px,00px);
+    }
+    
+    .container > main > .customer-reviews-mob > .box-container > .slide-box1-mob {
+        width: 100%;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container > main > .customer-reviews-mob > .box-container > .slide-box1-mob > .box-1 > .da1,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box2-mob > .box-1 > .da1,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box3-mob > .box-1 > .da1,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box4-mob > .box-1 > .da1{
+        width: 50px;
+        height: 50px;
+        background-color: var(--light-blue-color);
+        position: absolute;
+        top: -25px;
+        right: -25px;
+        border-radius: 100%;
+    }
+    .container > main > .customer-reviews-mob > .box-container > .slide-box1-mob > .box-1 > .center,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box2-mob > .box-1 > .center,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box3-mob > .box-1 > .center,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box4-mob > .box-1 > .center{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 20px;
+    }
+    .container > main > .customer-reviews-mob > .box-container > .slide-box1-mob > .box-1:hover,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box2-mob > .box-1:hover,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box3-mob > .box-1:hover,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box4-mob > .box-1:hover{
+        box-shadow: 0px 0px 8px rgb(153, 152, 152);
+        transition: all 0.50s;
+    }
+    .container > main > .customer-reviews-mob > .box-container > .slide-box1-mob > .box-1 > .center > .img,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box2-mob > .box-1 > .center > .img,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box3-mob > .box-1 > .center > .img,
+    .container > main > .customer-reviews-mob > .box-container > .slide-box4-mob > .box-1 > .center > .img{
+        display: flex;
+        gap: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    .container > main > .customer-reviews-mob >  .btn-slide-mob {
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .container > main > .customer-reviews-mob >  .btn-slide-mob > .slide__1b-mob{
+        width: 40px;
+        height: 10px;
+        background-color: blue;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    .container > main > .customer-reviews-mob >  .btn-slide-mob > .slide__2b-mob,
+    .container > main > .customer-reviews-mob >  .btn-slide-mob > .slide__3b-mob,
+    .container > main > .customer-reviews-mob >  .btn-slide-mob > .slide__4b-mob{
+        width: 20px;
+        height: 10px;
+        background-color: rgb(99, 173, 198);
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    
+    
+    
+}

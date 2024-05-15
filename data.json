@@ -1,0 +1,37 @@
+[
+    {
+        "name": "trx",
+        "price": 99.99,
+        "img":"../pic/ارز/a0vhpohs0xwf.webp"
+    }
+    ,
+    {
+        "name": "bit",
+        "price": 88.99,
+        "img":"../pic/ارز/meet1-bitcoin6.jpg"
+    }
+    ,
+    {
+        "name": "kardano",
+        "price": 77.99,
+        "img":"../pic/ارز/kardano.png"
+    }
+    ,
+    {
+        "name": "shiba",
+        "price": 66.99,
+        "img":"../pic/ارز/Shiba.png"
+    }
+    ,
+    {
+        "name": "solana",
+        "price": 55.99,
+        "img":"../pic/ارز/solana.png"
+    }
+    ,
+    {
+        "name": "tether",
+        "price": 44.99,
+        "img":"../pic/ارز/tether.png"
+    }     
+]
